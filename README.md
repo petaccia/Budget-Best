@@ -35,3 +35,15 @@ Pour commencer à utiliser Budget Best, suivez ces étapes simples :
 
 - **Frontend:** React.js, Vite, Tailwind CSS 
 - **Backend:** Node.js, Express.js, MySQL
+
+---
+5. **Création du fichier config.js dans le dossier backend/database**: Créez un fichier config.js dans le dossier backend/database et remplissez-le avec vos informations de connexion à la base de données.
+Exemple de fichier config.js :
+                        const dbConfig = {
+                        host: 'localhost',
+                        user: 'root',
+                        password: 'password',
+                        database: 'yourdatabase',
+                      };
+
+                      module.exports = dbConfig;
